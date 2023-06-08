@@ -1,0 +1,16 @@
+server:
+  port: 8010
+
+#spring:
+#  application:
+#    name: callback
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.55.8.173:8848
+        namespace: knx-business-platform
+      config:
+        server-addr: 10.55.8.173:8848
+        namespace: knx-business-platform
+
+test: 3333
